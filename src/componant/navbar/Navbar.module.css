@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2b3467;
+  color: rgb(235, 69, 95);
+  align-items: center;
+  padding: 0 50px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #fcffe7;
+  font-size: 1.5rem;
+}
