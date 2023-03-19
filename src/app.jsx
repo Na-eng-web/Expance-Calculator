@@ -50,7 +50,7 @@ const App = () => {
       <ExpanceList
         expances={visible}
         handleclick={(id) => {
-          Setexpances(expances.filter((a) => a.id != id));
+          Setexpances(expances.filter((a) => a.id !== id));
         }}
       />
     </>
