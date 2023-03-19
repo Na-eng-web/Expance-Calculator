@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Expance-calculator/static/css/main.cb0354b2.css",
+    "main.js": "/Expance-calculator/static/js/main.42291767.js",
+    "index.html": "/Expance-calculator/index.html",
+    "main.cb0354b2.css.map": "/Expance-calculator/static/css/main.cb0354b2.css.map",
+    "main.42291767.js.map": "/Expance-calculator/static/js/main.42291767.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb0354b2.css",
+    "static/js/main.42291767.js"
+  ]
+}
