@@ -8,7 +8,7 @@ const ExpanceList = (props, { expances }) => {
       <table className="table table-bordered">
         <thead>
           <tr>
-            <th>Discription</th>
+            <th>Description</th>
             <th>Amount</th>
             <th>Category</th>
             <th></th>

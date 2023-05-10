@@ -3,16 +3,22 @@ import Navbar from "./componant/navbar/Navbar";
 import Test from "./componant/test/Form";
 import ExpanceList from "./componant/test/ExpanceList";
 import Filter from "./componant/test/Filter";
+import Pie from "./componant/Pie";
 const App = () => {
   const catagory = ["Grosary", "Utilities", "Entertainment"];
   const [filter, setFilter] = useState("");
   const [open, setopen] = useState(false);
 
   const [expances, Setexpances] = useState([
-    { id: 1, Discription: "aaa", Amount: 10, catagory: "Entertainment" },
-    { id: 2, Discription: "bbb", Amount: 10, catagory: "Utilities" },
-    { id: 3, Discription: "ccc", Amount: 10, catagory: "Entertainment" },
-    { id: 4, Discription: "ddd", Amount: 10, catagory: "Entertainment" },
+    { id: 1, Discription: "Movie", Amount: 150, catagory: "Entertainment" },
+    { id: 2, Discription: "Sand Paper", Amount: 16, catagory: "Utilities" },
+    {
+      id: 3,
+      Discription: " internet bill ",
+      Amount: 100,
+      catagory: "Entertainment",
+    },
+    { id: 4, Discription: "Book", Amount: 25, catagory: "Entertainment" },
   ]);
 
   const visible = filter
@@ -27,7 +33,7 @@ const App = () => {
         className="m-3"
       >
         <button onClick={() => setopen(true)} className="btn btn-primary">
-          Add expance
+          Add Expense
         </button>
       </div>
 
