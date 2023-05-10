@@ -3,7 +3,6 @@ import Navbar from "./componant/navbar/Navbar";
 import Test from "./componant/test/Form";
 import ExpanceList from "./componant/test/ExpanceList";
 import Filter from "./componant/test/Filter";
-import Pie from "./componant/Pie";
 const App = () => {
   const catagory = ["Grosary", "Utilities", "Entertainment"];
   const [filter, setFilter] = useState("");
